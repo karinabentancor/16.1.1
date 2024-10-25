@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(22, 22, 22, 0.7);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    margin: 0; 
+}
+
+main {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center; 
+    color:whitesmoke;
+    font-weight: 100;
+}
+
+.container {
+    max-width: 800px; 
+    text-align: center; 
+}
+
+.card {
+    margin: 15px 0; 
+    text-align: center; 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+    max-height: 200px; 
+    object-fit: contain; 
+}
+
+#inputSearch {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 1.2rem; 
+    border: 2px solid greenyellow; 
+    border-radius: 5px; 
+    margin-bottom: 10px; 
+}
+
+.btn-custom {
+    background-color: #d5eed0; 
+    color: rgb(0, 0, 0); 
+    padding: 15px 20px; 
+    font-size: 1.2rem; 
+    border: 3px solid greenyellow; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.btn-custom:hover {
+    background-color: greenyellow; 
+}
+
+.text-danger {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+footer {
+    background-color: black;
+    color: white; 
+    text-align: center; 
+    padding: 15px; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+p {
+    color: whitesmoke; 
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: greenyellow;
+}
